@@ -1,0 +1,15 @@
+# Netscape HTTP Cookie File
+# http://curl.haxx.se/rfc/cookie_spec.html
+# This is a generated file!  Do not edit.
+
+.csdn.net	TRUE	/	FALSE		AU	A89
+.csdn.net	TRUE	/	FALSE	1548089086	BT	1516553086142
+.csdn.net	TRUE	/	FALSE	1548089086	UN	a_little_snail
+.csdn.net	TRUE	/	FALSE		UserInfo	jU4%2BOE00X6GsSh7dBLIGA0X%2B6DmwHOXmP8cbf85lPP62NQYCrj2ddvwtMwV7hKR5Q7FlCfg31SjRU%2BrQESo2lBS76Ja2OtOV2PV5fhCqNxc4pzZ1NeIP8Th1v%2F1iJe2t
+.csdn.net	TRUE	/	FALSE		UserName	a_little_snail
+.csdn.net	TRUE	/	FALSE		UserNick	JasonHaven
+.csdn.net	TRUE	/	FALSE	1735689600	dc_session_id	10_1516553085681.245012
+.csdn.net	TRUE	/	FALSE	1735689600	uuid_tt_dd	10_17861944590-1516553085681-582418
+passport.csdn.net	FALSE	/	TRUE		CASTGC	TGT-182148-jHUhgJIG4iCEJLzxuclHB2offqVdCHDViNhT9jnFMLFbToH6fF-passport.csdn.net
+passport.csdn.net	FALSE	/	FALSE		JSESSIONID	20C9EE4F07F912C74CDE911E48F911AE.tomcat1
+passport.csdn.net	FALSE	/	TRUE	1519145085	LSSC	LSSC-1808357-Ze27dA4NdWdqJaPIsfzy5xY2Y7H4Ug-passport.csdn.net
