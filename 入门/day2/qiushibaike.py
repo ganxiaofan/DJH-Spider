@@ -17,7 +17,8 @@
 import urllib.request
 import urllib.parse
 import re
-from Joke import *
+from joke import *
+from tool import *
 
 def crawl(url):
     headers = {
@@ -31,25 +32,22 @@ def crawl(url):
     if response.status != 200:
         print('url open error!')
         return None
-    else:
-        html = response.read().decode('utf-8')
-        return html
+    html = response.read().decode('utf-8')
+    return html
 
 
-def filter_tag(text):
-    pattern = re.compile(r'(<.*?/?>)', re.S)
-    return re.sub(pattern, '', text).strip()
 
 
 def analyze(html):
     jokes = list()
     pattern = re.compile(r'h2>(.*?)</h2.*?content">(.*?)</.*?number">(.*?)</.*?number">(.*?)</', re.S)
     items = re.findall(pattern, html)
+    tool=Tool()
     for item in items:
-        author = filter_tag(item[0])
-        content = filter_tag(item[1])
-        like = filter_tag(item[2])
-        comment = filter_tag(item[3])
+        author = tool.replace(item[0])
+        content = tool.replace(item[1])
+        like = tool.replace(item[2])
+        comment = tool.replace(item[3])
         jokes.append(Joke(author, content, like, comment))
     return jokes
 
