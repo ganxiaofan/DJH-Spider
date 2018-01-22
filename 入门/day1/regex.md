@@ -1,6 +1,7 @@
 # 正则表达式
 
 ![正则表达式语法](http://qiniu.cuiqingcai.com/wp-content/uploads/2015/02/20130515113723855.png)
+
 # Python
 
 #### （1）数量词的贪婪模式与非贪婪模式
